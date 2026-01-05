@@ -3,80 +3,248 @@ layout: home
 
 hero:
   name: "Claude Code 教程"
-  text: "AI编程助手完整学习指南"
-  tagline: 从入门到精通，掌握Claude Code的核心功能与高级特性
+  text: "🤖 AI编程助手完整学习指南"
+  tagline: 从零基础到高级应用，207篇精选文章助你精通 Claude Code | 国内可用，无需科学上网
   image:
     src: /logo.png
     alt: Claude Code
   actions:
     - theme: brand
-      text: 开始学习
+      text: 🚀 开始学习
       link: /zh/articles/001_1.1 Claude Code是什么
     - theme: alt
-      text: 查看教程目录
+      text: 📚 查看教程目录
       link: /zh/articles/
     - theme: alt
-      text: English
+      text: 🌐 English
       link: /en/
 
 features:
-  - icon: 🚀
-    title: 快速入门
-    details: 从零开始学习Claude Code，了解其核心概念和基本用法，快速上手AI编程助手
+  - icon: 🎓
+    title: 系统化学习路径
+    details: 10大章节、207篇精选文章，从基础概念到高级应用，循序渐进掌握 Claude Code 的每一个功能点
   - icon: 💡
-    title: 核心功能
-    details: 深入学习Claude Code的核心功能，包括代码生成、智能补全、代码解释等实用特性
+    title: 核心功能精讲
+    details: 深度解析代码生成、智能补全、代码重构、错误诊断等核心功能，配合实战案例即学即用
   - icon: 🔧
-    title: 高级特性
-    details: 掌握Claude Code的高级功能，如自定义配置、插件开发、工作流优化等进阶技巧
-  - icon: 📚
-    title: 实战应用
-    details: 通过真实案例学习如何在实际项目中应用Claude Code，提升开发效率
+    title: 高级特性探索
+    details: 掌握自定义配置、插件开发、工作流优化、团队协作等进阶技巧，释放 AI 编程的全部潜力
+  - icon: 📊
+    title: 实战项目案例
+    details: 涵盖前端、后端、全栈、DevOps等多领域真实项目，手把手教你将 Claude Code 应用到实际开发
   - icon: 🎯
-    title: 最佳实践
-    details: 学习业界最佳实践，避免常见陷阱，充分发挥Claude Code的潜力
+    title: 最佳实践指南
+    details: 总结业界最佳实践，避免常见陷阱，提供性能优化、安全防护、代码质量保障等专业建议
   - icon: 🌐
-    title: 完全开源
-    details: 所有教程内容完全开源，欢迎贡献和反馈，共同完善教程质量
+    title: 完全开源免费
+    details: 所有教程内容完全开源，持续更新，欢迎贡献和反馈，让我们共同打造最好的中文 Claude Code 教程
 ---
 
-## 关于本教程
+<div style="background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); padding: 40px 20px; border-radius: 12px; margin: 60px 0; text-align: center;">
+  <h2 style="color: white; font-size: 2em; margin-bottom: 20px;">🎉 MaynorAI API 服务 - 国内可用，无需科学上网</h2>
+  <p style="color: rgba(255,255,255,0.95); font-size: 1.2em; margin-bottom: 30px;">为中国开发者提供稳定、高速的 Claude API 服务</p>
+  <div style="display: flex; justify-content: center; gap: 20px; flex-wrap: wrap; margin-bottom: 30px;">
+    <div style="background: rgba(255,255,255,0.2); padding: 20px 30px; border-radius: 8px; backdrop-filter: blur(10px);">
+      <div style="color: white; font-size: 2em; font-weight: bold;">🚀</div>
+      <div style="color: white; font-size: 1.1em; margin-top: 10px;">国内直连</div>
+    </div>
+    <div style="background: rgba(255,255,255,0.2); padding: 20px 30px; border-radius: 8px; backdrop-filter: blur(10px);">
+      <div style="color: white; font-size: 2em; font-weight: bold;">⚡</div>
+      <div style="color: white; font-size: 1.1em; margin-top: 10px;">极速响应</div>
+    </div>
+    <div style="background: rgba(255,255,255,0.2); padding: 20px 30px; border-radius: 8px; backdrop-filter: blur(10px);">
+      <div style="color: white; font-size: 2em; font-weight: bold;">💎</div>
+      <div style="color: white; font-size: 1.1em; margin-top: 10px;">稳定可靠</div>
+    </div>
+  </div>
+  <a href="https://apipro.maynor1024.live/" target="_blank" style="display: inline-block; background: white; color: #667eea; padding: 15px 40px; border-radius: 25px; font-size: 1.1em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 15px rgba(0,0,0,0.2);">
+    🔗 访问 MaynorAI API 服务
+  </a>
+</div>
 
-本教程包含 **207篇** 详细文章，全面覆盖Claude Code的各个方面：
+## 📊 教程概览
 
-- 📖 **系统学习路径**：从入门到高级，循序渐进
-- 💻 **丰富代码示例**：理论结合实践，易于理解
-- 🔍 **深入技术细节**：不仅知其然，更知其所以然
-- 🌟 **最新内容更新**：紧跟Claude Code版本更新
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 20px; margin: 40px 0;">
+  <div style="background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">207</div>
+    <div style="font-size: 1.2em; opacity: 0.95;">精选文章</div>
+  </div>
+  <div style="background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">10</div>
+    <div style="font-size: 1.2em; opacity: 0.95;">核心章节</div>
+  </div>
+  <div style="background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">50+</div>
+    <div style="font-size: 1.2em; opacity: 0.95;">实战案例</div>
+  </div>
+  <div style="background: linear-gradient(135deg, #fa709a 0%, #fee140 100%); padding: 30px; border-radius: 12px; text-align: center; color: white;">
+    <div style="font-size: 3em; font-weight: bold; margin-bottom: 10px;">100%</div>
+    <div style="font-size: 1.2em; opacity: 0.95;">开源免费</div>
+  </div>
+</div>
 
-## 快速导航
+## 🗺️ 学习路径导航
 
-### 第一章：入门指南
-开始你的Claude Code之旅，了解基础概念和安装配置。
+### 🌱 第一阶段：入门基础（第1-2章）
 
-### 第二章：核心功能
-学习Claude Code的核心功能，掌握日常开发必备技能。
+<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #667eea; margin: 20px 0;">
 
-### 第三章：高级特性
-探索Claude Code的高级特性，提升开发效率。
+**第一章：Claude Code 入门指南**
+- 🎯 核心内容：什么是 Claude Code、安装配置、基础概念、快速上手
+- 📝 文章数量：20+ 篇
+- ⏱️ 预计学习时间：3-5 天
+- 🎓 学习目标：了解 Claude Code 的核心价值，完成环境搭建，掌握基本操作
 
-### 第四章：实战应用
-通过实际案例学习如何在项目中应用Claude Code。
+**第二章：核心功能详解**
+- 🎯 核心内容：代码生成、智能补全、代码重构、错误诊断、代码审查
+- 📝 文章数量：30+ 篇
+- ⏱️ 预计学习时间：5-7 天
+- 🎓 学习目标：熟练使用 Claude Code 的核心功能，提升日常开发效率
 
-## 贡献指南
+</div>
 
-欢迎对本教程提出建议和改进！如果你发现错误或有更好的内容建议：
+### 🚀 第二阶段：进阶应用（第3-5章）
 
-1. 访问 [GitHub仓库](https://github.com/yourusername/claudecode-tutorial)
-2. 提交 Issue 或 Pull Request
-3. 参与讨论，帮助完善教程
+<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #43e97b; margin: 20px 0;">
 
-## 许可协议
+**第三章：高级特性探索**
+- 🎯 核心内容：自定义配置、快捷键设置、工作流优化、性能调优
+- 📝 文章数量：25+ 篇
+- ⏱️ 预计学习时间：4-6 天
+- 🎓 学习目标：深度定制 Claude Code，打造个性化开发环境
 
-本教程基于 MIT 许可协议开源，可自由使用、修改和分发。
+**第四章：实战项目应用**
+- 🎯 核心内容：前端项目、后端API、全栈应用、DevOps实践
+- 📝 文章数量：35+ 篇
+- ⏱️ 预计学习时间：7-10 天
+- 🎓 学习目标：在真实项目中应用 Claude Code，积累实战经验
+
+**第五章：团队协作与最佳实践**
+- 🎯 核心内容：代码规范、团队协作、代码质量保障、安全防护
+- 📝 文章数量：20+ 篇
+- ⏱️ 预计学习时间：3-5 天
+- 🎓 学习目标：掌握团队协作技巧，建立最佳实践规范
+
+</div>
+
+### 🎯 第三阶段：专家进阶（第6-10章）
+
+<div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border-left: 4px solid #f5576c; margin: 20px 0;">
+
+**第六章：插件开发与扩展**
+- 🎯 核心内容：插件架构、API 使用、自定义插件开发、扩展机制
+- 📝 文章数量：18+ 篇
+- ⏱️ 预计学习时间：5-7 天
+- 🎓 学习目标：开发自定义插件，扩展 Claude Code 功能
+
+**第七章：AI 提示词工程**
+- 🎯 核心内容：提示词设计、上下文管理、对话策略、效果优化
+- 📝 文章数量：22+ 篇
+- ⏱️ 预计学习时间：4-6 天
+- 🎓 学习目标：掌握提示词工程技巧，提升 AI 输出质量
+
+**第八章：性能优化与调试**
+- 🎯 核心内容：性能分析、响应速度优化、资源管理、问题排查
+- 📝 文章数量：15+ 篇
+- ⏱️ 预计学习时间：3-5 天
+- 🎓 学习目标：优化使用体验，解决常见问题
+
+**第九章：企业级应用**
+- 🎯 核心内容：私有化部署、权限管理、安全合规、大规模应用
+- 📝 文章数量：12+ 篇
+- ⏱️ 预计学习时间：3-4 天
+- 🎓 学习目标：掌握企业级应用方案，满足商业场景需求
+
+**第十章：未来展望与趋势**
+- 🎯 核心内容：技术演进、行业趋势、未来方向、职业发展
+- 📝 文章数量：10+ 篇
+- ⏱️ 预计学习时间：2-3 天
+- 🎓 学习目标：了解 AI 编程的未来发展，规划职业成长路径
+
+</div>
+
+## 💡 学习建议
+
+<div style="background: linear-gradient(135deg, #ffecd2 0%, #fcb69f 100%); padding: 30px; border-radius: 12px; margin: 40px 0;">
+
+### 📚 如何高效学习本教程？
+
+1. **循序渐进**：建议按照章节顺序学习，先打好基础再进阶
+2. **边学边练**：每学完一个知识点，立即在实际项目中尝试应用
+3. **做好笔记**：记录学习心得和遇到的问题，建立个人知识库
+4. **参与讨论**：加入社区讨论，与其他学习者交流经验
+5. **持续实践**：AI 编程是实践性很强的技能，多用才能熟练
+
+### 🎯 学习时间规划
+
+- **快速入门**：1-2 周掌握基础功能，满足日常开发需求
+- **熟练应用**：1-2 个月系统学习，达到熟练应用水平
+- **专家级别**：3-6 个月深度学习，成为 Claude Code 专家
+
+### 💪 学习成果检验
+
+- ✅ 能够独立使用 Claude Code 完成日常开发任务
+- ✅ 能够优化开发流程，提升至少 50% 的开发效率
+- ✅ 能够处理复杂场景，解决实际项目中的问题
+- ✅ 能够指导团队成员，建立最佳实践规范
+- ✅ 能够开发自定义插件，扩展 Claude Code 功能
+
+</div>
+
+## 🤝 贡献指南
+
+<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 20px; margin: 40px 0;">
+  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #667eea;">
+    <div style="font-size: 2em; margin-bottom: 15px;">🐛</div>
+    <h3 style="margin-bottom: 15px;">发现错误？</h3>
+    <p>如果你发现教程中的错误或不准确的内容，欢迎提交 Issue 告诉我们</p>
+  </div>
+  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #43e97b;">
+    <div style="font-size: 2em; margin-bottom: 15px;">💡</div>
+    <h3 style="margin-bottom: 15px;">有更好的建议？</h3>
+    <p>如果你有更好的内容建议或改进方案，欢迎提交 Pull Request</p>
+  </div>
+  <div style="background: #f6f8fa; padding: 25px; border-radius: 10px; border: 2px solid #f5576c;">
+    <div style="font-size: 2em; margin-bottom: 15px;">🌟</div>
+    <h3 style="margin-bottom: 15px;">想贡献内容？</h3>
+    <p>欢迎贡献新的文章、案例或翻译，让我们一起完善教程</p>
+  </div>
+</div>
+
+### 参与方式
+
+1. **Star ⭐** 本项目，关注最新更新
+2. **Fork 🍴** 仓库，进行修改和改进
+3. **提交 PR 📝**，分享你的贡献
+4. **加入讨论 💬**，参与社区建设
+
+访问 [GitHub 仓库](https://github.com/yourusername/claudecode-tutorial) 开始贡献
+
+## 📄 许可协议
+
+本教程基于 **MIT 许可协议** 开源，你可以自由：
+
+- ✅ 使用：个人学习或商业使用
+- ✅ 修改：根据需求修改内容
+- ✅ 分发：分享给更多人
+- ✅ 二次创作：基于本教程创作衍生作品
+
+唯一的要求是保留原作者的版权声明。
+
+## 🎉 开始学习
+
+<div style="text-align: center; margin: 60px 0;">
+  <div style="font-size: 4em; margin-bottom: 20px;">🚀</div>
+  <h2 style="font-size: 2em; margin-bottom: 20px;">准备好开始你的 AI 编程之旅了吗？</h2>
+  <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">207 篇精选文章等你来探索</p>
+  <a href="/zh/articles/001_1.1 Claude Code是什么" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);">
+    🎓 立即开始学习
+  </a>
+</div>
 
 ---
 
-<div style="text-align: center; margin-top: 40px;">
-  <p style="color: #999;">开始你的AI编程之旅 🚀</p>
+<div style="text-align: center; padding: 40px 0; color: #999;">
+  <p style="font-size: 1.1em;">用 ❤️ 打造 | 持续更新中 | 欢迎 Star ⭐</p>
+  <p style="margin-top: 10px;">让 AI 编程助手成为你最得力的开发伙伴</p>
 </div>
