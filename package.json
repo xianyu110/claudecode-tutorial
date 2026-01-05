@@ -1,0 +1,19 @@
+{
+  "name": "claudecode-tutorial",
+  "version": "1.0.0",
+  "description": "自动爬取 [Claude Code中文教程](https://claudecode.tangshuang.net/tutorial) 的所有文章。",
+  "main": "index.js",
+  "scripts": {
+    "docs:dev": "vitepress dev docs",
+    "docs:build": "vitepress build docs",
+    "docs:preview": "vitepress preview docs"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "sitemap": "^9.0.0",
+    "vitepress": "^1.6.4",
+    "vue": "^3.5.26"
+  }
+}

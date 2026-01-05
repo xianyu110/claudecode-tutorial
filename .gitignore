@@ -1,0 +1,46 @@
+# 依赖
+node_modules/
+package-lock.json
+
+# VitePress 构建输出
+docs/.vitepress/dist
+docs/.vitepress/cache
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+venv/
+ENV/
+env/
+
+# 日志文件
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# 编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 临时文件
+*.tmp
+*.temp
+
+# 翻译进度文件
+translation_progress.json
+
+# 爬虫临时文件
+articles/
+metadata.json
