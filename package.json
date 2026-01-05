@@ -17,6 +17,6 @@
     "vue": "^3.5.26"
   },
   "optionalDependencies": {
-    "@rollup/rollup-win32-x64-msvc": "^4.55.1"
+    "@rollup/rollup-win32-x64-msvc": "^4.30.1"
   }
 }
