@@ -15,5 +15,8 @@
     "sitemap": "^9.0.0",
     "vitepress": "^1.6.4",
     "vue": "^3.5.26"
+  },
+  "optionalDependencies": {
+    "@rollup/rollup-win32-x64-msvc": "^4.54.0"
   }
 }
