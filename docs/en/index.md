@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 🚀 Get Started
-      link: /en/articles/001_1.1 What is Claude Code
+      link: /claudecode-tutorial/en/articles/001_1.1 What is Claude Code
     - theme: alt
       text: 📚 View Tutorial Index
-      link: /en/articles/
+      link: /claudecode-tutorial/en/articles/
     - theme: alt
       text: 🌐 中文
       link: /zh/
@@ -237,7 +237,7 @@ The only requirement is to retain the original author's copyright notice.
   <div style="font-size: 4em; margin-bottom: 20px;">🚀</div>
   <h2 style="font-size: 2em; margin-bottom: 20px;">Ready to Start Your AI Programming Journey?</h2>
   <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">207 curated articles waiting for you to explore</p>
-  <a href="/en/articles/001_1.1 What is Claude Code" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);">
+  <a href="/claudecode-tutorial/en/articles/001_1.1 What is Claude Code" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);">
     🎓 Start Learning Now
   </a>
 </div>

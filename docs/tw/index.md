@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 🚀 開始學習
-      link: /zh/articles/001_1.1 Claude Code是什麼
+      link: /claudecode-tutorial/tw/articles/001_1.1 Claude Code是什麼
     - theme: alt
       text: 📚 檢視教程目錄
-      link: /zh/articles/
+      link: /claudecode-tutorial/tw/articles/
     - theme: alt
       text: 🌐 English
       link: /en/
@@ -237,7 +237,7 @@ features:
   <div style="font-size: 4em; margin-bottom: 20px;">🚀</div>
   <h2 style="font-size: 2em; margin-bottom: 20px;">準備好開始你的 AI 程式設計之旅了嗎？</h2>
   <p style="font-size: 1.2em; color: #666; margin-bottom: 30px;">207 篇精選文章等你來探索</p>
-  <a href="/zh/articles/001_1.1 Claude Code是什麼" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);">
+  <a href="/claudecode-tutorial/tw/articles/001_1.1 Claude Code是什麼" style="display: inline-block; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); color: white; padding: 18px 50px; border-radius: 30px; font-size: 1.3em; font-weight: bold; text-decoration: none; box-shadow: 0 4px 20px rgba(102, 126, 234, 0.4);">
     🎓 立即開始學習
   </a>
 </div>
