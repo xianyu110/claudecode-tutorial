@@ -1,6 +1,5 @@
 # 依赖
 node_modules/
-package-lock.json
 
 # VitePress 构建输出
 docs/.vitepress/dist
