@@ -2,7 +2,7 @@
   "name": "claudecode-tutorial",
   "version": "1.0.0",
   "description": "自动爬取 [Claude Code中文教程](https://claudecode.tangshuang.net/tutorial) 的所有文章。",
-  "main": "index.js",
+  "type": "module",
   "scripts": {
     "docs:dev": "vitepress dev docs",
     "docs:build": "vitepress build docs",
