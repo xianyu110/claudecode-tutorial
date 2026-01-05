@@ -11,10 +11,10 @@ hero:
   actions:
     - theme: brand
       text: 開始學習
-      link: /tw/articles/001_1.1 Claude Code是什麼
+      link: /zh/articles/001_1.1 Claude Code是什麼
     - theme: alt
       text: 檢視教程目錄
-      link: /tw/articles/
+      link: /zh/articles/
     - theme: alt
       text: English
       link: /en/
