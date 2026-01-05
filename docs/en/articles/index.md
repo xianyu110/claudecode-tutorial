@@ -8,8 +8,8 @@ We're currently working on translating all 207 articles into English. This is a 
 
 While we complete the English translation, you can access the full tutorial in:
 
-- **🇨🇳 Simplified Chinese**: [View Chinese Version](/claudecode-tutorial/zh/articles/)
-- **🇹🇼 Traditional Chinese**: [View Traditional Chinese Version](/claudecode-tutorial/tw/articles/)
+- **🇨🇳 Simplified Chinese**: [View Chinese Version](/zh/articles/)
+- **🇹🇼 Traditional Chinese**: [View Traditional Chinese Version](/tw/articles/)
 
 Both versions contain all 207 comprehensive articles covering:
 - Getting Started Guide
@@ -40,8 +40,8 @@ We welcome contributions! If you'd like to help translate the tutorial:
 ### Quick Access
 
 For immediate access to all content, please visit:
-- [中文简体版 (Simplified Chinese)](/claudecode-tutorial/zh/articles/)
-- [中文繁體版 (Traditional Chinese)](/claudecode-tutorial/tw/articles/)
+- [中文简体版 (Simplified Chinese)](/zh/articles/)
+- [中文繁體版 (Traditional Chinese)](/tw/articles/)
 
 ---
 

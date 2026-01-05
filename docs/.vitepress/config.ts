@@ -6,7 +6,7 @@ export default defineConfig({
   description: 'Claude Code 完整中文教程 - AI编程助手学习指南',
 
   // 基础配置
-  base: '/claudecode-tutorial/',
+  base: '/', // 使用自定义域名时设置为根路径
   lang: 'zh-CN',
   lastUpdated: true,
   cleanUrls: true,
@@ -20,7 +20,7 @@ export default defineConfig({
 
   // 头部配置
   head: [
-    ['link', { rel: 'icon', href: '/claudecode-tutorial/favicon.ico' }],
+    ['link', { rel: 'icon', href: '/favicon.ico' }],
     ['meta', { name: 'theme-color', content: '#3eaf7c' }],
     ['meta', { name: 'apple-mobile-web-app-capable', content: 'yes' }],
     ['meta', { name: 'apple-mobile-web-app-status-bar-style', content: 'black' }],
@@ -254,6 +254,6 @@ export default defineConfig({
 
   // Sitemap 配置
   sitemap: {
-    hostname: 'https://xianyu110.github.io/claudecode-tutorial'
+    hostname: 'https://awesome.claude-opus.top'
   }
 })
