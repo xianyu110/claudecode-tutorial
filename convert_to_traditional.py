@@ -57,9 +57,19 @@ def convert_to_traditional(text: str, converter) -> str:
     # 转换为繁体中文
     text = converter.convert(text)
 
-    # 恢复代码块
+    # 恢复代码块 - 使用更灵活的匹配方式以处理OpenCC可能修改的占位符
     for i, code_block in enumerate(code_blocks):
-        text = text.replace(f"<<<CODE_BLOCK_{i}>>>", code_block)
+        # 首先尝试精确匹配
+        placeholder = f"<<<CODE_BLOCK_{i}>>>"
+        if placeholder in text:
+            text = text.replace(placeholder, code_block)
+        else:
+            # 如果精确匹配失败，尝试用正则表达式匹配（处理OpenCC可能的转换）
+            pattern = f"<<<CODE_BLOCK_{i}>>>.*?(?=\n|$)"
+            # 查找并替换占位符及其后面可能跟着的文本
+            matches = re.finditer(pattern, text, re.DOTALL | re.MULTILINE)
+            for match in matches:
+                text = text.replace(match.group(0), code_block)
 
     # 恢复行内代码
     for i, inline_code in enumerate(inline_codes):
