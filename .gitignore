@@ -41,5 +41,5 @@ Thumbs.db
 translation_progress.json
 
 # 爬虫临时文件
-articles/
-metadata.json
+/articles/
+/metadata.json
