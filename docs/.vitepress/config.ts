@@ -39,6 +39,7 @@ export default defineConfig({
     // 侧边栏 - 将由脚本自动生成
     sidebar: {
       '/zh/': generateSidebar('zh'),
+      '/tw/': generateSidebar('tw'),
       '/en/': generateSidebar('en')
     },
 
@@ -70,6 +71,22 @@ export default defineConfig({
                 footer: {
                   selectText: '选择',
                   navigateText: '切换'
+                }
+              }
+            }
+          },
+          tw: {
+            translations: {
+              button: {
+                buttonText: '搜尋文檔',
+                buttonAriaLabel: '搜尋文檔'
+              },
+              modal: {
+                noResultsText: '無法找到相關結果',
+                resetButtonTitle: '清除查詢條件',
+                footer: {
+                  selectText: '選擇',
+                  navigateText: '切換'
                 }
               }
             }
@@ -144,6 +161,40 @@ export default defineConfig({
         sidebar: {
           '/zh/': generateSidebar('zh')
         }
+      }
+    },
+    tw: {
+      label: '繁體中文',
+      lang: 'zh-TW',
+      link: '/tw/',
+      themeConfig: {
+        nav: [
+          { text: '首頁', link: '/tw/' },
+          { text: '教程', link: '/tw/articles/' },
+          { text: 'GitHub', link: 'https://github.com/xianyu110/claudecode-tutorial' }
+        ],
+        sidebar: {
+          '/tw/': generateSidebar('tw')
+        },
+        editLink: {
+          pattern: 'https://github.com/xianyu110/claudecode-tutorial/edit/main/docs/:path',
+          text: '在 GitHub 上編輯此頁面'
+        },
+        lastUpdated: {
+          text: '最後更新於',
+        },
+        docFooter: {
+          prev: '上一頁',
+          next: '下一頁'
+        },
+        outline: {
+          label: '頁面導航'
+        },
+        returnToTopLabel: '返回頂部',
+        sidebarMenuLabel: '選單',
+        darkModeSwitchLabel: '主題',
+        lightModeSwitchTitle: '切換到淺色模式',
+        darkModeSwitchTitle: '切換到深色模式'
       }
     },
     en: {
