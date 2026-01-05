@@ -6,7 +6,7 @@ hero:
   text: "🤖 AI编程助手完整学习指南"
   tagline: 从零基础到高级应用，207篇精选文章助你精通 Claude Code | 国内可用，无需科学上网
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: Claude Code
   actions:
     - theme: brand

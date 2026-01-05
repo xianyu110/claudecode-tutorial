@@ -6,7 +6,7 @@ hero:
   text: "🤖 AI程式設計助手完整學習指南"
   tagline: 從零基礎到高階應用，207篇精選文章助你精通 Claude Code | 國內可用，無需科學上網
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: Claude Code
   actions:
     - theme: brand

@@ -33,7 +33,7 @@ export default defineConfig({
 
   // 主题配置
   themeConfig: {
-    logo: '/logo.png',
+    logo: '/logo.svg',
     siteTitle: 'MaynorAI',
 
     // 导航栏

@@ -6,7 +6,7 @@ hero:
   text: "🤖 Complete AI Programming Assistant Guide"
   tagline: From zero to advanced, 207 curated articles to master Claude Code | Accessible in China, no VPN required
   image:
-    src: /logo.png
+    src: /logo.svg
     alt: Claude Code
   actions:
     - theme: brand
