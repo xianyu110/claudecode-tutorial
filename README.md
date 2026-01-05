@@ -12,6 +12,37 @@
 
 **207篇精心编写的文章**，带你全面掌握Claude Code的强大功能。
 
+## 🚀 快速开始使用 Claude Code
+
+### 💡 无需科学上网，立即体验
+
+**🎉 特别推荐：使用 MaynorAI API 服务**
+
+> 🔗 **API 服务地址**：https://apipro.maynor1024.live/
+
+**支持的 AI 服务：**
+- ✅ **Claude Code** - Anthropic 官方编程助手
+- ✅ **Codex** - OpenAI 代码生成模型
+- ✅ **GPT-4** - OpenAI 最强大模型
+- ✅ **Claude 3.5** - Anthropic 最新模型
+
+**服务优势：**
+- 🌐 **国内可用** - 无需科学上网，稳定访问
+- ⚡ **高速稳定** - 专线接入，响应迅速
+- 💰 **价格优惠** - 相比官方价格更实惠
+- 🔒 **安全可靠** - 企业级加密，数据安全
+- 📞 **技术支持** - 专业客服，快速响应
+
+**如何使用：**
+1. 访问 https://apipro.maynor1024.live/ 注册账号
+2. 获取 API Key
+3. 在 Claude Code 中配置 API Key
+4. 开始享受 AI 编程体验
+
+**详细配置教程请参考：** [2.7 使用国内中转站](https://xianyu110.github.io/claudecode-tutorial/zh/articles/)
+
+---
+
 ## 🎯 教程特色
 
 ### 📚 系统完整
@@ -193,6 +224,7 @@ cd claudecode-tutorial
 
 ## 🔗 相关资源
 
+- **🎯 MaynorAI API服务**：https://apipro.maynor1024.live/ - 国内直连，支持 Claude Code / Codex / GPT-4
 - **官方网站**：https://claude.ai/code
 - **官方文档**：https://docs.anthropic.com/
 - **MaynorAI导航**：https://link3.cc/maynorai
