@@ -11,6 +11,13 @@ export default defineConfig({
   lastUpdated: true,
   cleanUrls: true,
 
+  // 忽略跨语言链接的死链接检查
+  ignoreDeadLinks: [
+    /\/zh\/articles\/(index)?$/,
+    /\/tw\/articles\/(index)?$/,
+    /\/en\/articles\/(index)?$/
+  ],
+
   // 头部配置
   head: [
     ['link', { rel: 'icon', href: '/claudecode-tutorial/favicon.ico' }],
